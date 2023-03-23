@@ -1,7 +1,8 @@
 .App {
   background-color: aqua;
-  padding: 30px;
+  border: 5px solid;
   display: flex;
+  justify-content: center;
 }
 
 .App > div {
