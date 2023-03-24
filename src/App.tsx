@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import {Todolist} from './Todolist';
 import { v1 } from 'uuid';
+import Rating from './Rating';
 
 export type FilterValuesType = "all" | "active" | "completed";
 
@@ -45,7 +46,7 @@ function App() {
 
     return (
         <div className="App">
-            
+            <Rating/>
             <Todolist title="What to learn"
                       tasks={tasksForTodolist}
                       removeTask={removeTask}
