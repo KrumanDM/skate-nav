@@ -3,6 +3,7 @@ import './App.css';
 import {Todolist} from './Todolist';
 import { v1 } from 'uuid';
 import Rating from './Rating';
+import UncontrolledAccordion from './UncontrolledAccordion';
 
 export type FilterValuesType = "all" | "active" | "completed";
 
@@ -47,6 +48,7 @@ function App() {
     return (
         <div className="App">
             <Rating/>
+            <UncontrolledAccordion/>
             <Todolist title="What to learn"
                       tasks={tasksForTodolist}
                       removeTask={removeTask}
