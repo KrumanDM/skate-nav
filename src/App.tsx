@@ -1,19 +1,19 @@
 import React, { FC, useState } from "react";
 
-type Props =any
+type Props = any;
 
-const App = (props:Props) => {
+const App = (props: Props) => {
   const [count, setCount] = useState(0);
 
   const add = (factor = 1) => {
-    if (count >= 5) return
+    if (count >= 5) return;
     setCount(count + factor);
   };
-  
+
   const resetValue = () => {
-    setCount(0)
-  }
-  
+    setCount(0);
+  };
+
   return (
     <div>
       <h1>counter</h1>
