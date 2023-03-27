@@ -1,30 +1,27 @@
-import React, { useState } from "react";
-import "./App.css";
-import Counter from "./components/Counter";
-import Plus from "./components/Plus";
-import Reset from "./components/Reset";
+import React, { FC, useState } from "react";
 
-type CounterPropsType = number;
+type Props =any
 
-export default function App() {
-  const [counter, setCounter] = useState<CounterPropsType>(0);
+const App = (props:Props) => {
+  const [count, setCount] = useState(0);
 
-  const AddCount = (counter: number) => {
-    setCounter();
+  const add = (factor = 1) => {
+    if (count >= 5) return
+    setCount(count + factor);
   };
-
-  const ResetCount = () => {
-    setCounter(0);
-  };
-
+  
+  const resetValue = () => {
+    setCount(0)
+  }
+  
   return (
-    <div className="counter">
-      <h1>Counter</h1>
-      <Counter counter={counter} />
-      <div className="btn__container">
-        <Plus setCounter={setCounter} />
-        <Reset setCounter={setCounter} />
-      </div>
+    <div>
+      <h1>counter</h1>
+      <h2>{count}</h2>
+      <button onClick={() => add()}>+</button>
+      <button onClick={() => resetValue()}>-</button>
     </div>
   );
-}
+};
+
+export default App;
