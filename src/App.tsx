@@ -3,9 +3,9 @@ import Button from "./components/Button";
 import Counter from "./components/Counter";
 import './App.css'
 
-type Props = any;
 
-const App = (props: Props) => {
+
+const App = () => {
   const [count, setCount] = useState(0);
 
   const add = () => {
