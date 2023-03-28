@@ -26,8 +26,8 @@ const App = () => {
 
       <Counter count={count}/>
       <div className={"flex-parent jc-center"}>
-      <Button onClickHandler={add} text={"Inc"}/>
-      <Button onClickHandler={resetValue} text={"Reset"}/>
+      <div className={"button"}><Button onClickHandler={add} text={"Inc"}/></div>
+      <div className={"button"}><Button onClickHandler={resetValue} text={"Reset"}/></div>
       </div>
     </div>
   );
