@@ -25,9 +25,10 @@ const App = (props: Props) => {
       <button onClick={() => resetValue()}>-</button> */}
 
       <Counter count={count}/>
-      <Button  onClickHandler={add} text={"Inc"}/>
-      <Button  onClickHandler={resetValue} text={"Reset"}/>
-      
+      <div className={"wrapper"}>
+      <Button onClickHandler={add} text={"Inc"}/>
+      <Button onClickHandler={resetValue} text={"Reset"}/>
+      </div>
     </div>
   );
 };
