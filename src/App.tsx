@@ -25,7 +25,7 @@ const App = () => {
       <button onClick={() => resetValue()}>-</button> */}
 
       <Counter count={count}/>
-      <div className={"wrapper"}>
+      <div className={"flex-parent jc-center"}>
       <Button onClickHandler={add} text={"Inc"}/>
       <Button onClickHandler={resetValue} text={"Reset"}/>
       </div>
