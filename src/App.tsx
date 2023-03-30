@@ -5,7 +5,7 @@ import './App.css'
 import s from './App.module.css'
 
 type AppPropsType={
-  onClickHandler?:string
+  
 }
 
 const App = (props:AppPropsType) => {
@@ -37,3 +37,5 @@ const App = (props:AppPropsType) => {
 };
 
 export default App;
+
+
