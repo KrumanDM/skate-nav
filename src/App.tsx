@@ -25,7 +25,6 @@ const App = (props:AppPropsType) => {
   return (
     <div className={"App"}>
       <h1>counter</h1>
-      
 
       <div className={count >= 5=>string}><Counter type={redCounter} count={count}/></div>
       <div className={"flex-parent jc-center"}>
