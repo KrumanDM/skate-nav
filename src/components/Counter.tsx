@@ -2,6 +2,7 @@ import React from "react";
 
 type CounterPropsType = {
   count: number;
+
 };
 
 const Counter = (props: CounterPropsType) => {

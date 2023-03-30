@@ -2,13 +2,19 @@ import React, {useState } from "react";
 import Button from "./components/Button";
 import Counter from "./components/Counter";
 import './App.css'
+import s from './App.module.css'
 
+type AppPropsType={
+  onClickHandler?:string
+}
 
-const App = () => {
+const App = (props:AppPropsType) => {
   const [count, setCount] = useState(0);
 
   const add = () => {
-    if (count >= 5) return;
+    const redCounter = s.button 
+    if (count >= 5) 
+    return redCounter
     setCount(count + 1);
   };
 
@@ -23,7 +29,7 @@ const App = () => {
       <button onClick={() => add()}>+</button>
       <button onClick={() => resetValue()}>-</button> */}
 
-      <Counter count={count}/>
+      <div className={count >= 5=>string}><Counter type={redCounter} count={count}/></div>
       <div className={"flex-parent jc-center"}>
       <div className={"button"}><Button onClickHandler={add} text={"Inc"}/></div>
       <div className={"button"}><Button onClickHandler={resetValue} text={"Reset"}/></div>
