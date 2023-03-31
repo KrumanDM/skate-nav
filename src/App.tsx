@@ -22,9 +22,7 @@ const App = (props:AppPropsType) => {
     setCount(0);
   };
 
-  const CounterStyle = () => {
-
-  }
+  
 
   return (
     <div className={"App"}>
