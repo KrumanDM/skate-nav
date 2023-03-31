@@ -22,11 +22,15 @@ const App = (props:AppPropsType) => {
     setCount(0);
   };
 
+  const CounterStyle = () => {
+
+  }
+
   return (
     <div className={"App"}>
       <h1>counter</h1>
 
-      <div className={count >= 5=>string}><Counter type={redCounter} count={count}/></div>
+      <Counter count={count} />
       <div className={"flex-parent jc-center"}>
       <div className={"button"}><Button onClickHandler={add} text={"Inc"}/></div>
       <div className={"button"}><Button onClickHandler={resetValue} text={"Reset"}/></div>
