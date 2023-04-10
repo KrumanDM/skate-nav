@@ -2,7 +2,6 @@ import React, {useState } from "react";
 import Button from "./components/Button";
 import Counter from "./components/Counter";
 import './App.css'
-import s from './App.module.css'
 
 type AppPropsType={
   
