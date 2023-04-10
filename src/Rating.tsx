@@ -5,7 +5,6 @@ type RatingPropsType ={
 }
 
 
-
 const Rating = (props: RatingPropsType) => {
 
     let [value,setValue] = useState(0)
