@@ -19,7 +19,6 @@ const Rating = (props: RatingPropsType) => {
     )
 }
 
-
 export default Rating
 
 type StarPropsType ={
