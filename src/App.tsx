@@ -12,9 +12,8 @@ const App = (props:AppPropsType) => {
   const [count, setCount] = useState(0);
 
   const add = () => {
-    const redCounter = s.button 
     if (count >= 5) 
-    return redCounter
+    return 
     setCount(count + 1);
   };
 
