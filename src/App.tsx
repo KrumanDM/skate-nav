@@ -21,7 +21,6 @@ const App = (props:AppPropsType) => {
   };
 
   
-
   return (
     <div className={"App"}>
       <h1>counter</h1>
@@ -32,7 +31,7 @@ const App = (props:AppPropsType) => {
       <div className={"button"}><Button onClickHandler={resetValue} text={"Reset"}/></div>
       </div>
     </div>
-  );
+);
 };
 
 export default App;
