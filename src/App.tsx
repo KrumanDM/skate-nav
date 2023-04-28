@@ -3,8 +3,7 @@ import Button from "./components/Button";
 import Counter from "./components/Counter";
 import './App.css'
 
-type AppPropsType={
-}
+type AppPropsType={}
 
 const App = (props:AppPropsType) => {
   const [count, setCount] = useState(0);
