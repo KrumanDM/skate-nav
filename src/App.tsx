@@ -4,7 +4,6 @@ import Counter from "./components/Counter";
 import './App.css'
 
 type AppPropsType={
-  
 }
 
 const App = (props:AppPropsType) => {
