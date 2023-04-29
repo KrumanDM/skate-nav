@@ -30,7 +30,6 @@ const App = (props:AppPropsType) => {
       <div className={"button"}><Button onClickHandler={resetValue} text={"Reset"}/></div>
       </div>
     </div>
-
 );
 };
 
