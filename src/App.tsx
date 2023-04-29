@@ -14,6 +14,7 @@ const App = (props:AppPropsType) => {
     setCount(count + 1);
   };
 
+
   const resetValue = () => {
     setCount(0);
   };
@@ -29,6 +30,7 @@ const App = (props:AppPropsType) => {
       <div className={"button"}><Button onClickHandler={resetValue} text={"Reset"}/></div>
       </div>
     </div>
+
 );
 };
 
