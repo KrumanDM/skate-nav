@@ -14,7 +14,6 @@ const App = (props:AppPropsType) => {
     setCount(count + 1);
   };
 
-
   const resetValue = () => {
     setCount(0);
   };
