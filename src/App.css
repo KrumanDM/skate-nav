@@ -7,7 +7,6 @@
 
 .flex-parent {
   display: flex;
-  
 }
 
 .jc-center {
@@ -15,7 +14,6 @@
 }
 
 .button {
-  
   
     appearance: none;
     background-color: #2ea44f;
