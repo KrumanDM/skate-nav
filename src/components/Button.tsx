@@ -9,7 +9,8 @@ type ButtonPlusPropsType = {
 const Button = (props: ButtonPlusPropsType) => {
    
   return <div className="sss">
-    <button onClick={() =>  props.onClickHandler()}>{props.text}</button>
+    <button onClick={() =>  props.onClickHandler()}>{props.text}
+    </button>
   </div>;
 };
 
