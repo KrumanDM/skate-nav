@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 type RatingPropsType ={
-
 }
 
 const Rating = (props: RatingPropsType) => {
