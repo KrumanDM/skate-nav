@@ -11,4 +11,5 @@ const Counter = (props: CounterPropsType) => {
   return <div className={counterClassName}><b>{props.count}</b></div>;
 };
 
+
 export default Counter;
