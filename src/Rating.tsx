@@ -19,6 +19,7 @@ const Rating = (props: RatingPropsType) => {
 
 export default Rating
 
+
 type StarPropsType ={
    selected:boolean
    setValue:(value: 1|2|3|4|5) => void
