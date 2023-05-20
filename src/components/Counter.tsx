@@ -9,6 +9,7 @@ const Counter = (props: CounterPropsType) => {
   const counterClassName = `${props.count >= 5 && "maxCount"}`
 
   return <div className={counterClassName}><b>{props.count}</b></div>;
+
 };
 
 
