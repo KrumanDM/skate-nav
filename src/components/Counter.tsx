@@ -12,5 +12,4 @@ const Counter = (props: CounterPropsType) => {
 
 };
 
-
 export default Counter;
