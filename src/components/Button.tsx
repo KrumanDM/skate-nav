@@ -5,7 +5,6 @@ type ButtonPlusPropsType = {
   onClickHandler: () => void
 };
 
-
 const Button = (props: ButtonPlusPropsType) => {
    
   return <div className="buttonPlus">
