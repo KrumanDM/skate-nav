@@ -15,4 +15,4 @@ const Button = (props: ButtonPlusPropsType) => {
 
 export default Button;
 
-div*5>h1+span+button
+// div*5>h1+span+button
